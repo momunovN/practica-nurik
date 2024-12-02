@@ -1,0 +1,43 @@
+.dots_title{
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.header{
+    margin: 0 auto;
+}
+
+.sect{
+    background-image:url("./images/back-sect.svg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.text-btn{
+    padding-top: 459px;
+}
+
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.price-car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shirt-images{
+    background-image: url('./images/shirtImg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    width: 720px;
+}
