@@ -1,0 +1,29 @@
+.carousell {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+  /* Ширина контейнера */
+}
+
+.carousel-item {
+    min-width: 25%; /* 100% / 4 карточки = 25% */
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.carousel-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-button:hover {
+    background-color: #0056b3;
+}

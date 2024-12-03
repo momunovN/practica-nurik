@@ -41,3 +41,52 @@
     height: 720px;
     width: 720px;
 }
+
+
+.sweater-one{
+    background-image: url('./images//sweater.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-shop{
+    margin: 0 auto;
+}
+
+.men-img{
+    background-image: url('./images/men.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.women-img{
+    background-image: url('./images/women.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.carousel-image {
+    width: 320px;
+    height: 420px;
+    height: auto;
+}
+
+
+
+
+.left-arrow{
+    border-radius: 50%
+    
+}
+
+
+
+.car-left-right{
+    display: flex;
+    width: 1450px;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+}
