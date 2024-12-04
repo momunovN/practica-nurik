@@ -7,6 +7,8 @@ import {WomenModel} from './home/WomenModel/WomenModel'
 
 import "./index.css";
 import { CarouselMain } from './home/Carousel/CarouselMain';
+import { Cotton } from "./home/Cotton/Cotton";
+import { Features } from "./home/Features/Features";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <MenWomen/>
       <Press/>
       <WomenModel/>
+      <Cotton/>
+      <Features/>
     </div>
   );
 }

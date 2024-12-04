@@ -10,7 +10,7 @@ import Hb from "../images/HB.svg";
 
 export const SocialProof = () => {
   return (
-    <div className="w-[1440px] h-28 px-28 py-10 bg-[#fb791c] justify-between   ">
+    <div className="w-[1440px] h-28 flex items-center  bg-[#fb791c] justify-center   ">
       <div className=" soc-images w-[1217px] justify-between items-start flex aling-center ">
         <img src={Numero} alt="" />
         <img src={Bi} alt="" />

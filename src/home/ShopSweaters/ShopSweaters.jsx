@@ -4,8 +4,8 @@ import "../home.css";
 
 const SweaterOne = () => {
   return (
-    <div className="sweater-one h-[636px] w-[620px] relative bg-[#e7e7e7] rounded-lg flex items-end pl-10 pb-10">
-      <button className="h-14 px-6 py-4 bg-[#111111] rounded-lg justify-center items-center gap-2 inline-flex">
+    <div className="sweater-one  w-[620px] relative bg-[#e7e7e7] rounded-lg flex items-end p-10">
+      <button className=" w-[167px] h-[56px] bg-[#111111] rounded-lg justify-center items-center gap-2 inline-flex">
         <span className="text-center text-white text-base font-bold font-['Inter'] leading-normal">
           Shop Sweaters
         </span>
@@ -28,7 +28,7 @@ const SweaterContent = () => {
 
 export const ShopSweater = () => {
   return (
-    <section className="section-shop flex gap-6 justify-center px-[112px] py-[64px] ">
+    <section className="section-shop flex gap-6 justify-center  py-[64px] ">
       <SweaterOne />
       <SweaterContent />
     </section>

@@ -1,3 +1,17 @@
+*, ::before, ::after {
+    box-sizing: inherit;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+ 
+}
+
+body{
+    background-color: #F3F3F3;
+}
+
+
+
 .dots_title{
     margin: 0 auto;
     align-items: center;
@@ -84,9 +98,89 @@
 
 
 .car-left-right{
+
     display: flex;
-    width: 1450px;
+    width: 1440px;
     justify-content: space-between;
     position: absolute;
+
     align-items: center;
+}
+
+
+.select-carousel{
+    box-sizing: inherit;
+}
+
+
+
+.left-arrow:hover{
+    background-color: rgb(0, 0, 0);
+    transition: all 0.1s ease-in-out;
+}
+
+
+.left-arrow:hover .arrow-img{
+    color: azure;
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+
+.cardss{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+    width: 1216px;
+    height: 600px;
+}
+
+
+.card-1{
+    background-image: url('./images/cotton.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+}
+.card-2{
+    background-image: url('./images/cotton2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+        background-position: center;
+}
+.card-3{
+    background-image: url('./images/cotton3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+
+}
+
+
+.card-2-and-3 {
+    display: flex;
+    flex-direction: column; /* располагает card-2 и card-3 друг под другом */
+    gap: 24px;
+    height: 100%;
+}
+
+.sect-carousel{
+    user-select: none;
+}
+
+
+.feat-img-cont{
+    height: 56px;
+    width: 56px;
+}
+
+
+.sect-feat{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }

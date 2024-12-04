@@ -60,7 +60,7 @@ const PressContent = () => {
 
 export const Press = () => {
   return (
-    <section className="flex justify-center my-[64px]">
+    <section className="flex justify-center py-[64px]">
       <div className="section-item justify-center flex flex-col gap-10">
         <p className="w-[1217px] text-center text-[#111111] text-[40px] font-extrabold font-['Inter'] leading-[48px]">Hot off the press</p>
         <PressContent />
