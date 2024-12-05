@@ -9,7 +9,7 @@ import "./index.css";
 import { CarouselMain } from './home/Carousel/CarouselMain';
 import { Cotton } from "./home/Cotton/Cotton";
 import { Features } from "./home/Features/Features";
-
+import { Footer } from './home/Footer/Footer';
 function App() {
   return (
     <div className="my-app">
@@ -21,6 +21,7 @@ function App() {
       <WomenModel/>
       <Cotton/>
       <Features/>
+      <Footer/>
     </div>
   );
 }

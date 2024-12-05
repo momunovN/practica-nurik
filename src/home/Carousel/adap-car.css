@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+    .shirt-images, .carousel, .carousel-item{
+        width: 240px;
+        height:240px;
+    }
+    .shirt-imagess{
+        width: 110px;
+    }
+
+    .shirt-images{
+        padding: 0;
+  
+    }
+    .shirt-apad{
+        width: 110px;
+        height: 125px;
+    }
+
+    .arrow-adap{
+        padding-left: 11px;
+    padding-right: 11px;
+        width: 10px;
+    }
+
+    .shirt-btn-apad{
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+        height: 30px;
+        border-radius: 3px;
+        width: 50px;
+    }
+    .shirt-btn-apad button{
+        line-height:10px;
+        font-size: 5.5px /* 16px */;
+        line-height: 8px/* 24px */;
+    }
+
+
+}
